@@ -1,0 +1,38 @@
+/*
+ * Haka — penyesuaian arah kanan-ke-kiri.
+ * Dimuat otomatis oleh WordPress pada locale RTL (menggantikan main.css),
+ * karena itu file ini mengimpor gaya dasar lalu membalik yang bersifat arah.
+ */
+@import url("main.css");
+
+body { direction: rtl; }
+
+.hk-menu, .hk-header__inner, .hk-breaking__inner, .hk-trending__inner { direction: rtl; }
+
+.hk-trending__label { padding-right: 0; padding-left: 10px; border-right: 0; border-left: 1px solid var(--hk-border-strong); }
+
+.hk-list, .hk-list--lg, .hk-minilist__item, .hk-rank__item { direction: rtl; }
+
+.hk-menu .sub-menu { left: auto; right: -12px; }
+
+.hk-hero__arrow--prev { left: auto; right: 14px; transform: translateX(6px); }
+.hk-hero__arrow--next { right: auto; left: 14px; transform: translateX(-6px); }
+.hk-hero__controls { right: auto; left: 20px; }
+.hk-hero__overlay { text-align: right; }
+
+.hk-postnav__link--next { text-align: left; }
+.hk-comments__list .children { margin-left: 0; margin-right: 20px; padding-left: 0; padding-right: 14px; border-left: 0; border-right: 2px solid var(--hk-border); }
+
+.hk-prose blockquote { border-left: 0; border-right: 4px solid var(--hk-primary); padding-left: 0; padding-right: 20px; }
+.hk-prose ul, .hk-prose ol { padding-left: 0; padding-right: 1.4em; }
+.hk-prose dd { margin-left: 0; margin-right: 1.4em; }
+.hk-comment__content ul, .hk-comment__content ol { padding-left: 0; padding-right: 1.4em; }
+.hk-comment__content blockquote { padding-left: 0; padding-right: 12px; border-left: 0; border-right: 3px solid var(--hk-border-strong); }
+
+.hk-breadcrumb li + li::before { margin-right: 0; margin-left: 5px; }
+.alignleft { float: right; margin: 8px 0 16px 20px; }
+.alignright { float: left; margin: 8px 20px 16px 0; }
+
+.hk-totop { right: auto; left: 16px; }
+.hk-stickyshare { left: auto; right: max(12px, calc(50vw - (var(--hk-container) / 2) - 62px)); }
+.hk-section__head::after, .hk-widget__title::after { left: auto; right: 0; }

@@ -1,0 +1,31 @@
+/*
+Theme Name: hakanews
+Theme URI: https://hakatimes.id/
+Author: Haka
+Author URI: https://hakatimes.id
+Description: Modern lightweight WordPress news portal theme. Dirancang untuk portal berita Indonesia: cepat, responsif, SEO-friendly, tanpa page builder dan tanpa framework frontend besar.
+Version: 1.1.0
+Requires at least: 6.0
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: haka
+Tags: news, blog, two-columns, right-sidebar, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+/*
+Haka WordPress Theme, Copyright 2026 Hakatimes
+Haka is distributed under the terms of the GNU GPL v2 or later.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+*/
+
+/*
+ * Stylesheet utama theme ada di assets/css/main.css (di-enqueue terpisah agar
+ * bisa di-cache dan diurutkan dengan benar). File ini sengaja hanya memuat
+ * theme header — WordPress mewajibkan style.css ada di root theme.
+ */

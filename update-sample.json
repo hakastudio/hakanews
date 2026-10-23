@@ -1,0 +1,11 @@
+{
+  "name": "hakanews",
+  "version": "1.1.0",
+  "requires": "6.0",
+  "tested": "7.1",
+  "requires_php": "7.4",
+  "repository": "hakastudio/hakanews",
+  "url": "https://github.com/hakastudio/hakanews",
+  "download_url": "https://github.com/hakastudio/hakanews/releases/download/v1.1.0/hakanews.zip",
+  "changelog": "Rilis v1.1.0: Pembaruan tema otomatis melalui GitHub Releases."
+}
